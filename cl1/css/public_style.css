@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+    min-width: 720px;
+    background-color: black;
+    background-image: url(/img/披萨.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+#top_nav {
+    min-width: 1160px;
+    color: white;
+    font-size: 120%;
+    height: 100px;
+}
+#top_nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#top_nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 30px;
+}
+#top_nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+#top_nav .logo {
+    display: inline-block;
+    background-image: url(/img/logo1.svg);
+    width: 250px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+    position: relative;
+    top: 23px;
+}
+#top_msg {
+    height: 300px;
+}
+
+/* MAIN */
+.foodList {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.foodList figure {
+    text-align: center;
+    width: 200px;
+}
+.foodList img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: gray 3px 3px 20px;
+    border: 3px solid white;
+}
+.foodList figcaption {
+    margin-top: 10px;
+    color: gray;
+    font-size: 120%;
+    font-family: '微软雅黑';
+    font-weight: bolder;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    height: 50px;
+    color: gray;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+}
